@@ -40,7 +40,7 @@ $$x' = \frac{x - min(x)}{max(x) - min(x)}$$
 
 ## Model Training and Evaluation
 ### Regression Model Results
-| Metric  | Training Loss | Validation Loss | Test Loss |
+| Metric  | Training | Validation | Test |
 |---------|--------------|----------------|-----------|
 | Cost Errors | 0.0002106 | 4.569e-06 | 0.0004257 |
 | Accuracy (%) | 79.09 | 80.01 | 81.03 |
@@ -50,7 +50,7 @@ $$x' = \frac{x - min(x)}{max(x) - min(x)}$$
 - Training Iterations: **5,000**
 
 ### Classification Model Results
-| Metric  | Training Loss | Validation Loss | Test Loss |
+| Metric  | Training | Validation | Test |
 |---------|--------------|----------------|-----------|
 | Cost Errors | 0.4497 | 0.4621 | 0.4637 |
 | Accuracy (%) | 78.03 | 80.87 | 79.31 |
